@@ -131,7 +131,7 @@ ul, li {
 }
 
 #contents {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 /*--------------------------------
@@ -247,12 +247,20 @@ ul, li {
 ---------------------------------*/
 
 .section .inner {
-  padding: 80px 10px;
+  padding: 70px 10px;
 }
 
 .section .section-title-block {
-  text-align: center;
-  margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.section-title-block img {
+    display: inline-block;
+    width: 75px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    
 }
 
 .section .section-title {
@@ -262,104 +270,172 @@ ul, li {
   font-size: 56px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #f39ac7;
+  color: black;
 }
 
 .section .section-desc {
   text-align: center;
 }
 
-.two-column-wrapper {
+
+
+/*--------------------------------
+　PROFILE
+---------------------------------*/
+
+.profile-wrapper {
   width: 80%;
   margin: 0 auto;
-  padding: 20px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.two-column-image {
-  width: 33%;
-}
-
-.two-column-image img {
-  margin: 0 auto;
-}
-
-.two-column-desc {
-  width: 62%;
-}
-
-/*--------------------------------
-　Latestworks
----------------------------------*/
-
-#latestworks .two-column-image {
-  width: 48%;
-}
-
-#latestworks .two-column-desc {
-  width: 48%;
-}
-
-/*--------------------------------
-　WORKS
----------------------------------*/
-
-#works .card {
-  width: 32%;
-}
-
-#works .card {
-  margin-bottom: 50px;
-}
-
-#works .card-image {
-  display: block;
-  margin-bottom: 8px;
-}
-
-#works .card-caption-title {
-  font-size: 13px;
-  font-weight: bold;
-}
-
-#works .card-caption-info {
-  font-size: 12px;
-}
-
-#works .card-caption-url {
-  font-size: 10px;
-}
-
-#works .card-wrapper {
-  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
+.profile-image {
+    width: 30%;
+    
+}
+
+.profile-image img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-desc {
+    width: 65%;
+}
+
+.profile-desc p#certification {
+    padding-top: 16px;
+    
+}
+
+.under {
+    border-bottom: solid 1px black;
+}
+
+.profile-desc p {
+    font-size: 16px;
+}
+
+.profile-desc h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.lang-wrapper img {
+    display: inline-block;
+}
+
+img.python {
+    width: 220px;
+}
+
+img.html {
+    width: 75px;
+}
+
+img.css {
+    width: 53px;
+}
+
+img.flask {
+    width: 160px;
+}
+
+img.PyCharm {
+    width: 65px;
+}
+
+img.brackets {
+    width: 60px;
+}
+
+img.git {
+    width: 135px;
+}
+
+img.github {
+    width: 60px;
+}
+
+img.heroku {
+    width: 70px;
+}
+
+
 
 /*--------------------------------
-　About
+　WORKS
 ---------------------------------*/
 
-#about .two-column-image {
-  width: 33%;
+#works .work-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-#about .two-column-desc {
-  width: 62%;
+#works .work-card {
+    width: 33%;
+    margin: 10px 10px;
 }
+
+#works .card-inner {
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px gray;
+    text-align: center;
+    height: 615px;
+}
+
+#works .work-image {
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+#works .work-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#works .work-info {
+    font-size: 13px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+#works .caution {
+    font-size: 12px;
+}
+
+#works .use-skill {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#works .use-skill h3 {
+    margin-bottom: 2px;
+} 
+
+#works .work-url {
+    font-size: 13px;    
+}
+
+
 
 /*--------------------------------
  SKILL
