@@ -188,6 +188,7 @@ ul, li {
     padding: 10px;
     font-family: 'Open sans', sans-serif;
     z-index: 100;
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     background-color: #f3f3f3;
@@ -227,18 +228,6 @@ ul, li {
 
 #gnav li a:hover {
     color: dimgray;
-}
-
-#gnav.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f3f3f3;
-    box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-    transform: translate3d(0, 0, 0);
 }
 
 /*--------------------------------
