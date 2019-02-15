@@ -609,15 +609,15 @@ img.heroku {
     }
 }
 
-/*media Queries 640
+/*media Queries 670
 ----------------------------------------------------*/
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 670px) {
     .welcome {
-        font-size: 46px;
+        font-size: 40px;
     }
     .hello-world {
-        font-size: 46px;
+        font-size: 40px;
         }
     #header-bg {
         height: 270px;
